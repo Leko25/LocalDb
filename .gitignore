@@ -1,3 +1,6 @@
 local_db/venv
 local_db/.vscode
 local_db/__pycache__
+build
+dist
+local_db_lasdot.egg-info

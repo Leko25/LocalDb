@@ -5,6 +5,30 @@ Popluate and query local mongo server with
 energy api data
 <hr>
 
+## Installation Steps:
+### Requirements:
+`numpy:` 1.18.2
+<br>
+`pandas:` 1.0.3
+<br>
+ `pymongo:` 3.10.1
+ <br>
+ `tqdm:` 4.45.0
+
+ <b>note:</b> Please ensure that mongodb is installed and active before running.
+
+### Installation:
+`pip install local-db-lasdot==0.0.1`
+
+
+### Import Statement:
+~~~
+from local_db import CreateDb
+
+from local_db import QueryDb
+~~~
+
+
 # Populate Database Section
 ## Sample Usage
 
