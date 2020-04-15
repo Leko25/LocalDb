@@ -23,9 +23,9 @@ energy api data
 
 ### Import Statement:
 ~~~
-from local_db import CreateDb
+from local_db.create_db import CreateDb
 
-from local_db import QueryDb
+from local_db.query_db import QueryDb
 ~~~
 
 
