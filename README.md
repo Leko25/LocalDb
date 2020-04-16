@@ -18,7 +18,7 @@ energy api data
  <b>note:</b> Please ensure that mongodb is installed and active before running.
 
 ### Installation:
-`pip install local-db-lasdot==0.0.1`
+`pip install local-db-lasdot==0.0.2`
 
 
 ### Import Statement:
@@ -41,7 +41,7 @@ create_db.batch_insert('folder_path')
 ### Single insert:
 ~~~~
 create = CreateDb(db_name='example_db')
-create.single_insert(time_collection='time_(1_sec|1_min|15_min)', data_file_dir='data folder path', meta_file_dir='metadata folder path')
+create.single_insert(time_collection='time_(1_min|15_min)', data_file_dir='data folder path', meta_file_dir='metadata folder path')
 ~~~~
 
 # Query Database Section

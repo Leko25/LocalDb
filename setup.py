@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='local_db-lasdot',
-    version='0.0.1',
+    version='0.0.2',
     author='Kelechi Ogudu',
     author_email='icheleck25@gmail.com',
     description='light weight package for populating mongo database and query it with energy data',
